@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 public class DriverManager {
 	
 	 public WebDriver initializeDriver() {
-	        System.setProperty("webdriver.chrome.driver", "C:\\driver\\chromedriver.exe"); // Update path
+	        System.setProperty("webdriver.chrome.driver", "C:\\driver\\chromedriver.exe"); 
 	        System.setProperty("webdriver.chrome.logfile", "chromedriver.log");
 	        System.setProperty("webdriver.chrome.verboseLogging", "true");
 
