@@ -15,7 +15,7 @@ public class SearchResultsPage {
 
     public SearchResultsPage(WebDriver driver) {
         this.driver = driver;
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(30)); // Adjust wait time
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(30)); 
     }
 
     public void selectBestSellerSort() {
